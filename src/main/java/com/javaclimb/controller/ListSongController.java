@@ -63,7 +63,7 @@ public class ListSongController {
     }
 
 //    更新歌单里面的歌曲信息
-    @ResponseBody
+/*    @ResponseBody
     @RequestMapping(value = "/listSong/update", method = RequestMethod.POST)
     public Object updateListSongMsg(HttpServletRequest req){
         JSONObject jsonObject = new JSONObject();
@@ -86,5 +86,5 @@ public class ListSongController {
             jsonObject.put("msg", "修改失败");
             return jsonObject;
         }
-    }
+    }*/
 }
